@@ -5,14 +5,9 @@
 //  Created by Diego Ferreira on 17/11/22.
 //
 
-protocol TelaAViewModelDelegate: GenericViewDelegate {
-    
-    func configureTelaAView(with telaModel: TelaModel)
-}
-
 class TelaAViewModel {
     
-    weak var delegate: TelaAViewModelDelegate?
+    weak var delegate: TelaViewModelDelegate?
     
     private let telaAInfos = TelaModel(
         labelText: "Tela A",
@@ -21,6 +16,6 @@ class TelaAViewModel {
     
     func getTelaAInfos() {
         
-        delegate?.configureTelaAView(with: telaAInfos)
+        delegate?.configureTelaView(with: telaAInfos)
     }
 }

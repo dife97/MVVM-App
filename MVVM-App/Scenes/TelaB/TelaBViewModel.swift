@@ -5,14 +5,9 @@
 //  Created by Diego Ferreira on 17/11/22.
 //
 
-protocol TelaBViewModelDelegate: AnyObject {
-    
-    func configureTelaBView(with telaModel: TelaModel)
-}
-
 class TelaBViewModel {
     
-    weak var delegate: TelaBViewModelDelegate?
+    weak var delegate: TelaViewModelDelegate?
     
     let telaBInfos = TelaModel(
         labelText: "Tela B",
@@ -21,6 +16,6 @@ class TelaBViewModel {
     
     func getTelaBInfos() {
         
-        delegate?.configureTelaBView(with: telaBInfos)
+        delegate?.configureTelaView(with: telaBInfos)
     }
 }

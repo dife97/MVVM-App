@@ -37,9 +37,9 @@ class TelaCViewController: UIViewController {
     }
 }
 
-extension TelaCViewController: TelaCViewModelDelegate {
+extension TelaCViewController: TelaViewModelDelegate {
     
-    func configureTelaCView(with telaModel: TelaModel) {
+    func configureTelaView(with telaModel: TelaModel) {
         
         telaCView.labelText = telaModel.labelText
         

@@ -12,6 +12,7 @@
 		31AA393F2927215000385407 /* TelaAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AA393E2927215000385407 /* TelaAViewController.swift */; };
 		31AA39442927215200385407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31AA39432927215200385407 /* Assets.xcassets */; };
 		31AA39472927215200385407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31AA39452927215200385407 /* LaunchScreen.storyboard */; };
+		31E991F22927C62E00B8A25F /* TelaViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E991F12927C62E00B8A25F /* TelaViewModelDelegate.swift */; };
 		31FA0A0B2927230100D48230 /* GenericView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FA0A0A2927230100D48230 /* GenericView.swift */; };
 		31FA0A0D2927265600D48230 /* TelaAViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FA0A0C2927265600D48230 /* TelaAViewModel.swift */; };
 		31FA0A0F2927269C00D48230 /* TelaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FA0A0E2927269C00D48230 /* TelaModel.swift */; };
@@ -29,6 +30,7 @@
 		31AA39432927215200385407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31AA39462927215200385407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31AA39482927215200385407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31E991F12927C62E00B8A25F /* TelaViewModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaViewModelDelegate.swift; sourceTree = "<group>"; };
 		31FA0A0A2927230100D48230 /* GenericView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericView.swift; sourceTree = "<group>"; };
 		31FA0A0C2927265600D48230 /* TelaAViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaAViewModel.swift; sourceTree = "<group>"; };
 		31FA0A0E2927269C00D48230 /* TelaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaModel.swift; sourceTree = "<group>"; };
@@ -72,9 +74,18 @@
 				31FA0A1829272C3E00D48230 /* Model */,
 				31FA0A1929272C5000D48230 /* View */,
 				31FA0A062927227B00D48230 /* Scenes */,
+				31E991F32927C6C700B8A25F /* Protocols */,
 				31FA0A1B29272C6F00D48230 /* Files */,
 			);
 			path = "MVVM-App";
+			sourceTree = "<group>";
+		};
+		31E991F32927C6C700B8A25F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				31E991F12927C62E00B8A25F /* TelaViewModelDelegate.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		31FA0A062927227B00D48230 /* Scenes */ = {
@@ -222,6 +233,7 @@
 				31FA0A0B2927230100D48230 /* GenericView.swift in Sources */,
 				31AA393F2927215000385407 /* TelaAViewController.swift in Sources */,
 				31FA0A1729272ABE00D48230 /* TelaCViewModel.swift in Sources */,
+				31E991F22927C62E00B8A25F /* TelaViewModelDelegate.swift in Sources */,
 				31AA393B2927215000385407 /* AppDelegate.swift in Sources */,
 				31FA0A1329272A5B00D48230 /* TelaBViewModel.swift in Sources */,
 				31FA0A0D2927265600D48230 /* TelaAViewModel.swift in Sources */,
