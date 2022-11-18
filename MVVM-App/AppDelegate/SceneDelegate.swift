@@ -17,10 +17,21 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
+        let mainNavigationController = getTelaANavigationController()
+        
         window = UIWindow(windowScene: windowScene)
         
-        window?.rootViewController = UINavigationController(rootViewController: ViewController())
+        window?.rootViewController = mainNavigationController
         
         window?.makeKeyAndVisible()
+    }
+    
+    private func getTelaANavigationController() -> UINavigationController {
+        
+        let telaANavigationController = UINavigationController(rootViewController: TelaAViewController())
+        
+        telaANavigationController.navigationBar.tintColor = .systemPink
+        
+        return telaANavigationController
     }
 }

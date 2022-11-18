@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		31AA393B2927215000385407 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AA393A2927215000385407 /* AppDelegate.swift */; };
 		31AA393D2927215000385407 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AA393C2927215000385407 /* SceneDelegate.swift */; };
-		31AA393F2927215000385407 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AA393E2927215000385407 /* ViewController.swift */; };
-		31AA39422927215000385407 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31AA39402927215000385407 /* Main.storyboard */; };
+		31AA393F2927215000385407 /* TelaAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AA393E2927215000385407 /* TelaAViewController.swift */; };
 		31AA39442927215200385407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31AA39432927215200385407 /* Assets.xcassets */; };
 		31AA39472927215200385407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31AA39452927215200385407 /* LaunchScreen.storyboard */; };
+		31FA0A0B2927230100D48230 /* GenericView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FA0A0A2927230100D48230 /* GenericView.swift */; };
+		31FA0A0D2927265600D48230 /* TelaAViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FA0A0C2927265600D48230 /* TelaAViewModel.swift */; };
+		31FA0A0F2927269C00D48230 /* TelaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FA0A0E2927269C00D48230 /* TelaModel.swift */; };
+		31FA0A1129272A2100D48230 /* TelaBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FA0A1029272A2100D48230 /* TelaBViewController.swift */; };
+		31FA0A1329272A5B00D48230 /* TelaBViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FA0A1229272A5B00D48230 /* TelaBViewModel.swift */; };
+		31FA0A1529272AB800D48230 /* TelaCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FA0A1429272AB800D48230 /* TelaCViewController.swift */; };
+		31FA0A1729272ABE00D48230 /* TelaCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FA0A1629272ABE00D48230 /* TelaCViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		31AA39372927215000385407 /* MVVM-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31AA393A2927215000385407 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31AA393C2927215000385407 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		31AA393E2927215000385407 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		31AA39412927215000385407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31AA393E2927215000385407 /* TelaAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaAViewController.swift; sourceTree = "<group>"; };
 		31AA39432927215200385407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31AA39462927215200385407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31AA39482927215200385407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31FA0A0A2927230100D48230 /* GenericView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericView.swift; sourceTree = "<group>"; };
+		31FA0A0C2927265600D48230 /* TelaAViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaAViewModel.swift; sourceTree = "<group>"; };
+		31FA0A0E2927269C00D48230 /* TelaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaModel.swift; sourceTree = "<group>"; };
+		31FA0A1029272A2100D48230 /* TelaBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaBViewController.swift; sourceTree = "<group>"; };
+		31FA0A1229272A5B00D48230 /* TelaBViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaBViewModel.swift; sourceTree = "<group>"; };
+		31FA0A1429272AB800D48230 /* TelaCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaCViewController.swift; sourceTree = "<group>"; };
+		31FA0A1629272ABE00D48230 /* TelaCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaCViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,85 @@
 		31AA39392927215000385407 /* MVVM-App */ = {
 			isa = PBXGroup;
 			children = (
+				31FA0A1A29272C6000D48230 /* AppDelegate */,
+				31FA0A1829272C3E00D48230 /* Model */,
+				31FA0A1929272C5000D48230 /* View */,
+				31FA0A062927227B00D48230 /* Scenes */,
+				31FA0A1B29272C6F00D48230 /* Files */,
+			);
+			path = "MVVM-App";
+			sourceTree = "<group>";
+		};
+		31FA0A062927227B00D48230 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				31FA0A072927228600D48230 /* TelaA */,
+				31FA0A082927229300D48230 /* TelaB */,
+				31FA0A092927229900D48230 /* TelaC */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		31FA0A072927228600D48230 /* TelaA */ = {
+			isa = PBXGroup;
+			children = (
+				31AA393E2927215000385407 /* TelaAViewController.swift */,
+				31FA0A0C2927265600D48230 /* TelaAViewModel.swift */,
+			);
+			path = TelaA;
+			sourceTree = "<group>";
+		};
+		31FA0A082927229300D48230 /* TelaB */ = {
+			isa = PBXGroup;
+			children = (
+				31FA0A1029272A2100D48230 /* TelaBViewController.swift */,
+				31FA0A1229272A5B00D48230 /* TelaBViewModel.swift */,
+			);
+			path = TelaB;
+			sourceTree = "<group>";
+		};
+		31FA0A092927229900D48230 /* TelaC */ = {
+			isa = PBXGroup;
+			children = (
+				31FA0A1429272AB800D48230 /* TelaCViewController.swift */,
+				31FA0A1629272ABE00D48230 /* TelaCViewModel.swift */,
+			);
+			path = TelaC;
+			sourceTree = "<group>";
+		};
+		31FA0A1829272C3E00D48230 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				31FA0A0E2927269C00D48230 /* TelaModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		31FA0A1929272C5000D48230 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31FA0A0A2927230100D48230 /* GenericView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		31FA0A1A29272C6000D48230 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
 				31AA393A2927215000385407 /* AppDelegate.swift */,
 				31AA393C2927215000385407 /* SceneDelegate.swift */,
-				31AA393E2927215000385407 /* ViewController.swift */,
-				31AA39402927215000385407 /* Main.storyboard */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		31FA0A1B29272C6F00D48230 /* Files */ = {
+			isa = PBXGroup;
+			children = (
 				31AA39432927215200385407 /* Assets.xcassets */,
 				31AA39452927215200385407 /* LaunchScreen.storyboard */,
 				31AA39482927215200385407 /* Info.plist */,
 			);
-			path = "MVVM-App";
+			name = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +209,6 @@
 			files = (
 				31AA39472927215200385407 /* LaunchScreen.storyboard in Resources */,
 				31AA39442927215200385407 /* Assets.xcassets in Resources */,
-				31AA39422927215000385407 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +219,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31AA393F2927215000385407 /* ViewController.swift in Sources */,
+				31FA0A0B2927230100D48230 /* GenericView.swift in Sources */,
+				31AA393F2927215000385407 /* TelaAViewController.swift in Sources */,
+				31FA0A1729272ABE00D48230 /* TelaCViewModel.swift in Sources */,
 				31AA393B2927215000385407 /* AppDelegate.swift in Sources */,
+				31FA0A1329272A5B00D48230 /* TelaBViewModel.swift in Sources */,
+				31FA0A0D2927265600D48230 /* TelaAViewModel.swift in Sources */,
+				31FA0A1529272AB800D48230 /* TelaCViewController.swift in Sources */,
 				31AA393D2927215000385407 /* SceneDelegate.swift in Sources */,
+				31FA0A0F2927269C00D48230 /* TelaModel.swift in Sources */,
+				31FA0A1129272A2100D48230 /* TelaBViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		31AA39402927215000385407 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				31AA39412927215000385407 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		31AA39452927215200385407 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,8 +372,10 @@
 				INFOPLIST_FILE = "MVVM-App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,7 +385,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,8 +401,10 @@
 				INFOPLIST_FILE = "MVVM-App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,7 +414,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
